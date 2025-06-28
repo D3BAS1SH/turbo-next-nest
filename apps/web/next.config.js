@@ -3,8 +3,8 @@ const nextConfig = {
     rewrites: () => {
         return [
             {
-                source: '/trpc/:path*',
-                destination: `${process.env.TRPC_URL}/:path*`
+                source: "/trpc/:path*",
+                destination: `${process.env.TRPC_URL}/:path*`,
             }
         ]
     }
